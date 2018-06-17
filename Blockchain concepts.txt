@@ -1,0 +1,36 @@
+Blockchain is a record keeping system/database which is shared or distributed in nature.
+
+Blockchain for business operates on 4 principles:
+
+- Shared ledger( A ledger is a book used to maintain records of any financial/asset transactions)
+	- All the transactions over a network are recorded in the ledger.
+	- All participants maintain a duplicate copy of a ledger.
+	- All participants/nodes in network are permissioned to access the transaction details.
+	
+- Permission (Access to the records can be controlled)
+	- Blockchains can be permissioned or permissionless.
+	- If blockchain is permissioned, all nodes use a digital signature as an identity to access transaction details and for the same, a Certificate Authority should exist grant digital certs. For example if node A and B transact with each other, node C can only view that node A and B have transacted but node C cannot view the details/assets of transaction between node A and B. Whereas an auditor in a network can view transaction details of all nodes.
+	- If blockchain is permissionless, all nodes can view the transactions.
+	
+- Consensus (Participants should agree on the record to be valid. Number depends on the conditions imposed by smart contracts ) In a business network where the participants are known and trusted following consensus means can be used:
+	- Proof of stake: Validators on the network should hold certain percent of total network value.
+	- Multi-signature: A majority of validators should agree that a transaction is valid.
+	- Practical Byzantine Fault tolerance(PBFT): An algorithm to settle disputes among computing nodes.
+
+	In a public blockchain like bitcoin a proof of work is used for consensus where in challenges are given by the network to nodes according to the versions of the ledger maintained. Nodes with same versions of ledger team up together to solve the challenge. The first team to solve the puzzle is the winner and all other nodes in the network replicate the ledger that of the winning team. The idea here is majority always wins. 
+	
+- Smart Contracts 
+	- Smart Contracts are rules governing a business transaction. These contracts are stored on the blockchain and are self-executed on every transaction.
+	For example, a smart contract may define contractual conditions under which corporate bond transfer occurs or it may encapsulate the terms and conditions of travel insurance, which may be executed automatically when, for example, a flight is delayed by more than six hours.
+	
+
+
+Various roles in a blockchain network are as follows:
+
+- Blockchain User: A blockchain participants or the business users or these can also be referred to as nodes on a blockchain network. The users will transact in between themselves. 
+- Regulator : An authority/blockchain user to monitor the transactions between nodes or users of the blockchain network. A regulator can be prohibited from performing		 transaction on the particular blockchain business network
+- Blockchain Developer: The one who develops application and smart contracts that enable blockchain users to perform transaction on the blockchain network.
+- Blockchain Network operator: Individuals who have special permissions to define, create, manage and monitor the blockchain network. Each business on the blockchain network has a network operator.
+- Traditional processing platforms: Existing computer system to facilitate the computing/processing power to the blockchain network.
+-Traditional data systems : The existing data systems which will provide the data to influence the smart contracts and help define how the data flow will happen between the existing system and blockchain.
+- Certificate Authority : For provisioning permissioned blockchain network, a certificate authority to facilitate digital certificates to blockchain users.  
